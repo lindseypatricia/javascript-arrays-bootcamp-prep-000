@@ -5,12 +5,12 @@ var chocolateBars = [
   'skittles'
   ]
   
-  function destructivelyAddElementToBeginningOfArray() {
+  function destructivelyAddElementToBeginningOfArray(array,foo) {
     var array = [1];
     array.unshift('foo');
     return array
   }
- function destructivelyAddElementToEndOfArray() {
+ function destructivelyAddElementToEndOfArray(array,foo) {
    var array = [1];
    array.push('foo');
    return array
