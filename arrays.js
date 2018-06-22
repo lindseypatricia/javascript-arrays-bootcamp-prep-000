@@ -29,4 +29,8 @@ var chocolateBars = [
    var myArray = [1, 2, 3]
    return myArray[2]
  }
- function removeElementFromEndOfArray() 
+ function removeElementFromEndOfArray() {
+   var days = ['Monday', 'Tuesday', 'Wednesday'];
+   days.shift();
+   return days
+ }
