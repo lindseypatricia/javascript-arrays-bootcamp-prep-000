@@ -6,46 +6,46 @@ var chocolateBars = [
   ]
   
   function destructivelyAddElementToBeginningOfArray() {
-    var myArray = [1];
-    myArray.unshift('foo');
-    return myArray
+    var array = [1];
+    array.unshift('foo');
+    return array
   }
  function destructivelyAddElementToEndOfArray() {
-   var myArray = [1];
-   myArray.push('foo');
-   return myArray
+   var array = [1];
+   array.push('foo');
+   return array
  }
  function addElementToBeginningOfArray() {
-   var myArray = [1];
-   myArray = ['foo', ...myArray];
-   return myArray
+   var array = [1];
+   array = ['foo', ...array];
+   return array
  }
  function addElementToEndOfArray() {
-   var myArray = [1];
-   myArray = [...myArray, 'foo'];
-   return myArray
+   var array = [1];
+   array = [...array, 'foo'];
+   return array
  }
  function accessElementInArray() {
-   var myArray = [1, 2, 3];
-   return myArray[2]
+   var array = [1, 2, 3];
+   return array[2]
  }
  function destructivelyRemoveElementFromBeginningOfArray() {
-   var myArray = [1, 2, 3];
-   myArray.shift();
-   return myArray
+   var array = [1, 2, 3];
+   array.shift();
+   return array
  }
  function removeElementFromBeginningOfArray() {
-   var myArray = [1, 2, 3];
-   myArray = myArray.slice(1);
-   return myArray
+   var array = [1, 2, 3];
+   array = array.slice(1);
+   return array
  }
  function destructivelyRemoveElementFromEndOfArray() {
-   var myArray = [1, 2, 3];
-   myArray.pop();
-   return myArray
+   var array = [1, 2, 3];
+   array.pop();
+   return array
  }
  function removeElementFromEndOfArray() {
-   var myArray = [1, 2, 3];
-   myArray = myArray.slice(0,myArray.length - 1)
-   return myArray
+   var array = [1, 2, 3];
+   myArray = array.slice(0,array.length - 1)
+   return array
  }
