@@ -29,13 +29,13 @@ var chocolateBars = [
    var myArray = [1, 2, 3]
    return myArray[2]
  }
- function destructivelyRemoveElementFromEndOfArray() {
+ function destructivelyRemoveElementFromBeginningOfArray() {
    var myArray = [1, 2, 3];
    myArray.shift();
    return myArray
  }
- function removeElementFromEndOfArray() {
+ function removeElementFromBeginningOfArray() {
    var myArray = [1, 2, 3];
-   myArray.slice(1);
+   myArray.slice(-1);
    return myArray
  }
