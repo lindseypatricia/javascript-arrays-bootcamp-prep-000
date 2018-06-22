@@ -10,4 +10,8 @@ var chocolateBars = [
     myArray.unshift("foo");
     return myArray
   }
- 
+ function destructivelyAddElementToEndOfArray() {
+   var myArray = [1];
+   myArray.push("foo");
+   return myArray
+ }
