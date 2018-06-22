@@ -15,3 +15,7 @@ var chocolateBars = [
    myArray.push("foo");
    return myArray
  }
+ function addElementToBeginningOfArray() {
+   var myArray = [1];
+   
+ }
