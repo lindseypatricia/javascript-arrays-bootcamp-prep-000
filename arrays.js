@@ -22,11 +22,11 @@ var chocolateBars = [
  }
  function addElementToEndOfArray() {
    var myArray = [1];
-   [...myArray, 'foo'];
+   myArray = [...myArray, 'foo'];
    return myArray
  }
  function accessElementInArray() {
-   var myArray = [1, 2, 3]
+   var myArray = [1, 2, 3];
    return myArray[2]
  }
  function destructivelyRemoveElementFromBeginningOfArray() {
@@ -36,12 +36,12 @@ var chocolateBars = [
  }
  function removeElementFromBeginningOfArray() {
    var myArray = [1, 2, 3];
-   myArray.slice(1);
+   myArray = myArray.slice(1);
    return myArray
  }
  function destructivelyRemoveElementFromEndOfArray() {
    var myArray = [1, 2, 3];
-   myArray = myArray.pop();
+   myArray.pop();
    return myArray
  }
  function removeElementFromEndOfArray() {
