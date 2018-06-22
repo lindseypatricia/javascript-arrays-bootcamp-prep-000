@@ -26,5 +26,6 @@ var chocolateBars = [
    return myArray
  }
  function accessElementInArray() {
-   var myArray = []
+   var myArray = [1, 2, 3]
+   console.log(myArray[2])
  }
