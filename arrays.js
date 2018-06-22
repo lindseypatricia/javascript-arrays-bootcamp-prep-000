@@ -25,3 +25,6 @@ var chocolateBars = [
    [...myArray, "foo"];
    return myArray
  }
+ function accessElementInArray() {
+   
+ }
