@@ -31,17 +31,14 @@ var chocolateBars = [
    return array
  }
  function removeElementFromBeginningOfArray(array, element) {
-   var array = [1, 2, 3];
    array = array.slice(1);
    return array
  }
  function destructivelyRemoveElementFromEndOfArray(array, element) {
-   var array = [1, 2, 3];
    array.pop();
    return array
  }
- function removeElementFromEndOfArray(array, element) {
-   var array = [1, 2, 3];
-   myArray = array.slice(0,array.length - 1)
+ function removeElementFromEndOfArray(array) {
+   array.slice(0,array.length - 1)
    return array
  }
