@@ -22,4 +22,6 @@ var chocolateBars = [
  }
  function addElementToEndOfArray() {
    var myArray = [1];
+   [...myArray, "foo"];
+   return myArray
  }
