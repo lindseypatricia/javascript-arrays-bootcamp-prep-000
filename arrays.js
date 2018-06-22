@@ -17,7 +17,7 @@ var chocolateBars = [
  }
  function addElementToBeginningOfArray() {
    var myArray = [1];
-   ['foo', ...myArray];
+   myArray = ['foo', ...myArray];
    return myArray
  }
  function addElementToEndOfArray() {
